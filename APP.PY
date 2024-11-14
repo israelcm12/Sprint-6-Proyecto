@@ -21,4 +21,3 @@ if build_scatter:
     fig = px.scatter(car_data, x="odometer", y="price", title="Relación entre el kilometraje y el precio")
     st.plotly_chart(fig, use_container_width=True)
 
-# Fin
