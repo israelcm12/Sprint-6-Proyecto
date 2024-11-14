@@ -22,4 +22,3 @@ if build_scatter:
     st.plotly_chart(fig, use_container_width=True)
 
 # Fin
-
