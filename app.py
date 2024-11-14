@@ -3,7 +3,7 @@ import plotly.express as px
 import streamlit as st
 
 # Leer los datos
-car_data = pd.read_csv('vehicles_us.csv')
+car_data = pd.read_csv('notebooks/vehicles_us.csv')
 
 # Crear casillas de verificación para el histograma y el gráfico de dispersión
 build_histogram = st.checkbox('Construir un histograma')
