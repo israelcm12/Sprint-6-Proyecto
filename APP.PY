@@ -20,3 +20,6 @@ if build_scatter:
     st.write('Creación de un gráfico de dispersión para el conjunto de datos de anuncios de venta de coches')
     fig = px.scatter(car_data, x="odometer", y="price", title="Relación entre el kilometraje y el precio")
     st.plotly_chart(fig, use_container_width=True)
+
+# Fin
+
